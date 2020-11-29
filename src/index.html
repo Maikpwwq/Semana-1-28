@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
     <title>Mi primera pagina web</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -11,7 +12,66 @@
 
 <body>
 
-    <div id="team">
+    <!--inicio header-->
+    <header class="header">
+        <!--menu-->
+        <section class="barra-superior"> 
+            <div class="titulo">
+                <h1>Proyecto Final Sprint 1</h1>
+            </div>
+            <nav class="contenedor-menu">
+                <ul class="menu-principal">
+                    <li class="menu-principal_item"><a href="#">Inicio</a></li>
+                    <li class="menu-principal_item"><a href="#services">Servicios</a></li>
+                    <li class="menu-principal_item"><a href="#news">Noticias</a></li>
+                    <li class="menu-principal_item"><a href="#team">Miembros</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <!--banner-->
+        <section class="banner">
+                <h2 class="banner_titulo" >MisionTIC 2022</h2>
+                <img src="../img/MisionTIC.jpg" alt="" class="baner_image">
+        </section>
+    </header>
+    <!--fin header-->
+
+    <!--inicio del main-->
+    <main>
+        <!-- Servicios --> 
+        <section id="services" class="services">
+            <div class="titulo-principal"><h2>Maximiza el valor de tu negocio.</h2></div>
+            <div class="services-group">
+                <div class="services-group__web">
+                    <div class="titulo-secundario">
+                        <h3>1.	Servicios de Arquitectura web</h3>
+                    </div>                
+                    <p> Especificaciones. Diseño y desarrollo de plataformas de última tecnología, sobre plantilla y a medida.
+                        <br/>  <a href="#">Ver Detalle</a>
+                    </p>                    
+                    <img src="../img/ServicesWEB.png" alt="servicio de Arquitectura web">                    
+                </div>
+                <div class="services-group__e-commerce">
+                    <div class="titulo-secundario">
+                        <h3>2.	Servicios de gestión de e-commerce</h3>
+                    </div>
+                    <p> Especificaciones. Construcción de prototipos con Mockups, asesoramiento y actualización de tu tienda online. <br/> <a href="#">Ver Detalle</a> 
+                    </p>
+                    <img src="../img/ServicesE-commerce.png" alt="servicio de gestión de e-commerce">
+                </div>
+                <div class="services-group__seo">
+                    <div class="titulo-secundario">
+                        <h3>3.	Servicios de posicionamiento SEO</h3>
+                    </div>
+                    <p>Especificaciones. Arquitectura de meta etiquetas, marcados semánticos, enlazado interno, Keywords, optimización de títulos e imágenes.
+                        <br/>  <a href="#">Ver Detalle</a>
+                    </p>
+                    <img src="../img/serviceSEO.png" alt="servicio de posicionamiento SEO">                    
+                </div>
+            </div>            
+        </section>
+         <div id="team">
 
         <div class="member">
             <div class="div-imagen">
@@ -93,6 +153,10 @@
         </div>
 
     </div>
+    </main>
+    <!--final del main-->
+  
+ 
     <footer>
         <div class="footer-div">
             <div style="margin-top: -50px;">
